@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    background-color: antiquewhite;
+    
+}
+.container__left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 50px;
+}
+.container__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    justify-content: center;
+    padding: 20px;
+}
