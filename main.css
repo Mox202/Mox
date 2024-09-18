@@ -54,3 +54,20 @@ body{
 .git__t{
    font-size: 20px;
 }
+.gitinfo__z{
+display: flex;
+justify-content: center;
+}
+.gitinfo__container{
+    justify-content: center;
+    background-color:rgba(133, 221, 248, 0.507);
+    border-radius: 20px;
+}
+.gitinfo__t{
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+    
+}
