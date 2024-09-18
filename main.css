@@ -1,8 +1,9 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 179, 255, 0.349);
+    margin: 0px;
 }
 .container{
-    background-color: rgb(43, 194, 240);
+    background-color: rgba(100, 217, 253, 0.76);
     align-items: center;
     display: flex;
     
@@ -25,7 +26,7 @@ body{
 }
 .github{
     padding-bottom: 20px;
-    background-color: rgb(33, 134, 223);
+    background-color: rgba(133, 221, 248, 0.507);
     border-radius: 20px;
 }
 .github__img{ 
@@ -37,4 +38,19 @@ body{
     margin-top: 80px;
     padding-left: 150px;
     padding-right: 150px;
+}
+.git{
+    background-color: rgba(130, 235, 253, 0.507);
+    border-radius: 20px;
+}
+.git__z{
+    display: flex;
+    justify-content: center;
+}
+.git__container{
+   display: flex;
+   justify-content: center;
+}
+.git__t{
+   font-size: 20px;
 }
