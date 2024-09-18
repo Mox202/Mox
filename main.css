@@ -2,8 +2,9 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .container{
-    background-color: antiquewhite;
+    background-color: rgb(43, 194, 240);
     align-items: center;
+    display: flex;
     
 }
 .container__left{
@@ -13,9 +14,27 @@ body{
 }
 .container__center{
     display: flex;
-    justify-content: center;
 }
 .menu{
-    justify-content: center;
     padding: 20px;
+}
+.github__z{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.github{
+    padding-bottom: 20px;
+    background-color: rgb(33, 134, 223);
+    border-radius: 20px;
+}
+.github__img{ 
+    width: 30%;
+}
+.github__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
